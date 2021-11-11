@@ -1,3 +1,8 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+
 .cabecalho{ 
     width: 100%;
     padding: 20px 0;
@@ -87,9 +92,23 @@ nav a:hover {
 }
 
 footer{
+    width: 100%;
+    height: 20px;
     text-align: center;
     background: yellow;
     font-size:12px;
     padding: 20px;
     font-family: 'Lucida Sans';
+    display: inline-block;
+    color:brown
+}
+
+@media screen (max-width: 600px) {
+    .cabecalho .menus .itens .p1 {
+        display: block;
+        flex-direction: column;
+        
+        
+    }
+    
 }
